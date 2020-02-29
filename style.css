@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contents {
+	width: 960px;
+	margin: 50px auto;
+}
+.content {
+	width: 300px;
+	border: solid #444 1px;
+	float: left;
+}
+.content:not(:last-child) {
+	margin-right: 30px;
+}
+.sub-title {
+	background-color: orange;
+	padding: 3px;
+	position: absolute;
+}
+.content-items {
+	width: 280px;
+	margin: 10px auto;
+}
+img {
+	width: 280px;
+	height: auto;
+}
+h2 {
+	font-size: 1.25rem;
+	margin: 5px auto;
+}
